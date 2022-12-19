@@ -28,8 +28,6 @@ async function main() {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   });
-  console.log('Connect to db');
   await app.listen(PORT);
-  console.log(`Server listen port ${PORT}`);
 }
 main();
